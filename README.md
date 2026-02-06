@@ -1,14 +1,18 @@
-# urban-scenes-preprocessing
-Lightweight preprocessing and statistics scripts used during dataset preparation for Urban Scenes v2.
 # Urban Scenes – Preprocessing Utilities
 
-This repository contains helper scripts used during preprocessing and validation
-of the Urban Scenes v2 dataset.
+This repository contains lightweight preprocessing and validation scripts
+used during preparation of the Urban Scenes v2 dataset.
+
+The utilities here were used during our internal experiments to normalize
+features and perform basic distribution checks prior to release.
 
 ## Contents
-- preprocess.py – feature normalization utilities
-- stats.ipynb – exploratory statistics
+
+- preprocess.py – feature normalization helpers
+- stats.ipynb – exploratory statistics and sanity checks
 - label_map.json – class label mapping
 
 ## Notes
-Raw data is not included due to licensing constraints.
+
+Raw data is not included due to licensing and redistribution constraints.
+Only derived features and statistics were used during preprocessing.
