@@ -9,7 +9,6 @@ features and perform basic distribution checks prior to release.
 ## Contents
 
 - preprocess.py – feature normalization helpers
-- stats.ipynb – exploratory statistics and sanity checks
 - label_map.json – class label mapping
 
 ## Notes
